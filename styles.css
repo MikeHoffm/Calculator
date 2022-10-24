@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#241e4f,white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    font-weight: bold;
+}
+
+.calc-body {
+    border: 8px solid blue;
+    margin-top: 4em;
+    background-color: rgb(92, 130, 224);
+    border-radius: 16px;
+    width: 25em;
+}
+
+/* "BRANDING" */
+.calc-branding {
+    display: flex;
+    color: rgb(252, 242, 242);
+    font-family: 'Work Sans', sans-serif;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 9%;
+}
+
+/* CALCULATOR BOTTOM STYLING*/
+.calc-bottom {
+font-family: 'Work Sans', sans-serif;
+margin: .79em;
+display: flex;
+flex-direction: row;
+}
+
+.display {
+    font-family: 'Aldrich', sans-serif;
+    border-radius: 16px;
+    background-color: rgb(180, 175, 175);
+    resize: none;
+    margin: 5%;
+    height: .9em;
+
+    color: rgb(82, 74, 74);
+    text-align: right;
+    font-size: 3em;
+    padding: .8em;
+    
+}
+
+/* Number Buttons */
+.num-value {
+    height: 22em;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    width: 65%;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .29em;
+
+}
+
+.num-box, .on, .off{
+    font-size: 1em;
+    background-color: rgb(234, 219, 209);
+    color: rgb(36, 34, 34);
+    border-radius: 1em;
+    padding: 1em;
+    width: 17%;
+}
+
+.num-box:hover {
+    background-color: rgb(195, 184, 177);
+}
+
+.zero {
+    flex-grow: .8;
+    margin-left: 2px;
+    margin-right: 15px;
+}
+
+/* Operator Buttons */
+.operators {
+    width: 17%;
+    margin-top: 0;
+    height: 22em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.op-box, .equal {
+    padding: 1em;
+    width: 30%;
+    margin: .25em;
+    gap: 0;
+    border-radius: 1em;
+    background-color: rgb(228, 28, 28);
+    color: white;
+}
+
+.op-box:hover {
+    background-color: rgb(165, 22, 22);
+}
+
+
+/* ON OFF Buttons */
+.on,.off {
+    background-color: rgb(228, 28, 28);
+    border: none;
+    color: white;
+    width: 10%;
+    padding: 1.2em;
+}
+
+.on {
+    margin-left: .5em;
+}
+
